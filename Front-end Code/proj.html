@@ -1,0 +1,80 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+height: 100%;
+font-family: Arial, Helvetica, sans-serif;
+}
+* {
+box-sizing: border-box;
+}
+.bg-img {
+/* The image used */
+background-image: url("bb1.jpg");
+min-height: 800px;
+/* Center and scale the image nicely */
+background-position: left;
+background-repeat: no-repeat;
+background-size: centre;
+position:relative;
+}
+
+/* Add styles to the form container */
+.container {
+position: absolute;
+right: 100;
+margin: 100px;
+max-width: 600px;
+padding: 20px;
+background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+border: none;
+background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+background-color: #ddd;
+outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+background-color: Indigo;
+color: white;
+padding: 16px 20px;
+border: none;
+cursor: pointer;
+width: 80%;
+opacity: 0.9;
+}
+.btn:hover {
+opacity: 1;
+}
+</style>
+</head>
+<body>
+<div class="bg-img">
+<form action="search.php" class="container" method="post">
+<link rel="stylesheet" href="proj.css">
+<h1><u>BLOOD BANK MANAGEMENT SYSTEM</u></h1>
+
+ 
+		<p><b><h3>ENTER REGISTER NAME<h3></b></p>
+            <input type="text" name="valueToSearch" placeholder="Value To Search"><br><br>
+            <input type="submit" name="search" value="Search"><br><br>
+            </form>
+            
+
+<div class="form-inline">
+</div></br>
+</form>
+</div>
+</body>
+</html>

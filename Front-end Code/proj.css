@@ -1,0 +1,15 @@
+h1
+{
+	color:Indigo;
+	font-size:40px;
+	font-family: Franklin Gothic Heavy;
+}
+b
+{
+	font-size:20px;
+}
+input[type="radio"] {
+    -ms-transform: scale(1.7); /* IE 9 */
+    -webkit-transform: scale(1.7); /* Chrome, Safari, Opera */
+    transform: scale(1.7);
+}
